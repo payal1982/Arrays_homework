@@ -5,11 +5,11 @@ public class Specific_Value
     public static void main(String[] args)
     {
         int[] array={1,2,3,4,5};//array declared, initiated at the same time
-       /* for(int i=0;i<=array.length;i++)
+       /* for(int i=0;i<=array.length-1;i++)
         {
-            System.out.println(array[i]);
+            System.out.print(array[i] + " ");
         }*/
-       //cannot understand why exception thread error is there when i try to run program with this method
+       //tried both the for and for each loop for printing both working fine
         for (int aa:array)//tried the for each loop, as it seems quite simple in use
         {
             System.out.print(aa + ",");

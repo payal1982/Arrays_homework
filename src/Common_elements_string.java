@@ -22,7 +22,7 @@ public class Common_elements_string
         System.out.println("\nCommon elements in both the arrays:");
         for (int i=0;i<s1.length;i++ )
         {
-            for (int j=1;j<s2.length;j++)
+            for (int j=0;j<s2.length;j++)
             {
                 if (s1[i]==s2[j])
                 {

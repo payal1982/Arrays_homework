@@ -22,11 +22,11 @@ public class Sort_arrays
     {
         String[] names = {"Payal", "Deepak", "Nitya", "Param", "Patel"};
         System.out.println("The array before sorting:");
-        for (String names1 : names)//in built method to sort arrays
+        for (String names1 : names)
         {
               System.out.println(names1);
         }
-        Arrays.sort(names);
+        Arrays.sort(names);//in built method to sort arrays
         System.out.println("Array after sorting:");
         for (String names2 : names)
         {
